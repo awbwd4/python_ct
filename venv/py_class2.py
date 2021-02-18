@@ -8,3 +8,24 @@ class Foo:
 
 f = Foo()
 print(id(f))
+
+
+# 13222720
+
+f.func2()
+
+Foo.func1()
+
+# f.func1()
+
+
+# Foo.func2()
+
+f3 = Foo()
+
+print(id(f3))
+
+Foo.func2(f3)
+
+
+# id(f3)
